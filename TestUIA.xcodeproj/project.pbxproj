@@ -26,6 +26,7 @@
 		29EB7F4618E17D9900F01973 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EB7F1E18E17D9900F01973 /* CoreData.framework */; };
 		29EB7F4E18E17D9900F01973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29EB7F4C18E17D9900F01973 /* InfoPlist.strings */; };
 		29EB7F5018E17D9900F01973 /* TestUIATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EB7F4F18E17D9900F01973 /* TestUIATests.m */; };
+		29EB7F5B18E1873900F01973 /* main.js in Sources */ = {isa = PBXBuildFile; fileRef = 29EB7F5A18E1873900F01973 /* main.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		29EB7F4B18E17D9900F01973 /* TestUIATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestUIATests-Info.plist"; sourceTree = "<group>"; };
 		29EB7F4D18E17D9900F01973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29EB7F4F18E17D9900F01973 /* TestUIATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUIATests.m; sourceTree = "<group>"; };
+		29EB7F5A18E1873900F01973 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		29EB7F0C18E17D9900F01973 = {
 			isa = PBXGroup;
 			children = (
+				29EB7F5918E1873900F01973 /* UIATest_script */,
 				29EB7F2018E17D9900F01973 /* TestUIA */,
 				29EB7F4918E17D9900F01973 /* TestUIATests */,
 				29EB7F1718E17D9900F01973 /* Frameworks */,
@@ -167,6 +170,14 @@
 				29EB7F4C18E17D9900F01973 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29EB7F5918E1873900F01973 /* UIATest_script */ = {
+			isa = PBXGroup;
+			children = (
+				29EB7F5A18E1873900F01973 /* main.js */,
+			);
+			path = UIATest_script;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 				29EB7F2B18E17D9900F01973 /* UIAAppDelegate.m in Sources */,
 				29EB7F3A18E17D9900F01973 /* UIADetailViewController.m in Sources */,
 				29EB7F3418E17D9900F01973 /* TestUIA.xcdatamodeld in Sources */,
+				29EB7F5B18E1873900F01973 /* main.js in Sources */,
 				29EB7F3718E17D9900F01973 /* UIAMasterViewController.m in Sources */,
 				29EB7F2718E17D9900F01973 /* main.m in Sources */,
 			);
@@ -491,6 +503,7 @@
 				29EB7F5518E17D9900F01973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29EB7F5618E17D9900F01973 /* Build configuration list for PBXNativeTarget "TestUIATests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +512,7 @@
 				29EB7F5818E17D9900F01973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
