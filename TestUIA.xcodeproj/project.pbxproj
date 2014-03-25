@@ -27,6 +27,8 @@
 		29EB7F4E18E17D9900F01973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29EB7F4C18E17D9900F01973 /* InfoPlist.strings */; };
 		29EB7F5018E17D9900F01973 /* TestUIATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EB7F4F18E17D9900F01973 /* TestUIATests.m */; };
 		29EB7F5B18E1873900F01973 /* main.js in Sources */ = {isa = PBXBuildFile; fileRef = 29EB7F5A18E1873900F01973 /* main.js */; };
+		29EB7F5E18E191FE00F01973 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 29EB7F5C18E191FE00F01973 /* LICENSE */; };
+		29EB7F5F18E191FE00F01973 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 29EB7F5D18E191FE00F01973 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		29EB7F4D18E17D9900F01973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29EB7F4F18E17D9900F01973 /* TestUIATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUIATests.m; sourceTree = "<group>"; };
 		29EB7F5A18E1873900F01973 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		29EB7F5C18E191FE00F01973 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		29EB7F5D18E191FE00F01973 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		29EB7F0C18E17D9900F01973 = {
 			isa = PBXGroup;
 			children = (
+				29EB7F5C18E191FE00F01973 /* LICENSE */,
+				29EB7F5D18E191FE00F01973 /* README.md */,
 				29EB7F5918E1873900F01973 /* UIATest_script */,
 				29EB7F2018E17D9900F01973 /* TestUIA */,
 				29EB7F4918E17D9900F01973 /* TestUIATests */,
@@ -257,10 +263,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29EB7F5F18E191FE00F01973 /* README.md in Resources */,
 				29EB7F3118E17D9900F01973 /* Main_iPad.storyboard in Resources */,
 				29EB7F3C18E17D9900F01973 /* Images.xcassets in Resources */,
 				29EB7F2E18E17D9900F01973 /* Main_iPhone.storyboard in Resources */,
 				29EB7F2518E17D9900F01973 /* InfoPlist.strings in Resources */,
+				29EB7F5E18E191FE00F01973 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
