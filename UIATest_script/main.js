@@ -1,15 +1,22 @@
-UIALogger.logMessage("Initialization");
+
+#import "navigationBar.js"
+
+
 var target = UIATarget.localTarget();
 var app = target.frontMostApp();
 var navigationBar = app.navigationBar();
 var window = app.mainWindow();
 var tableView = window.tableViews()[0];
 
+rightSide();
+leftSide();
+
 UIALogger.logStart("Start: Add new row");
 UIALogger.logMessage("+ tap button");
 var plusButton = navigationBar.rightButton();
 plusButton.tap();
 UIALogger.logPass("End: Add new row");
+
 
 UIALogger.logStart("Start: Remove cell");
 UIALogger.logMessage("Edit tap button");

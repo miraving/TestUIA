@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29CA133218E1B8230004AFAA /* navigationBar.js in Sources */ = {isa = PBXBuildFile; fileRef = 29CA133118E1B8230004AFAA /* navigationBar.js */; };
 		29EB7F1918E17D9900F01973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EB7F1818E17D9900F01973 /* Foundation.framework */; };
 		29EB7F1B18E17D9900F01973 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EB7F1A18E17D9900F01973 /* CoreGraphics.framework */; };
 		29EB7F1D18E17D9900F01973 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EB7F1C18E17D9900F01973 /* UIKit.framework */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29CA133118E1B8230004AFAA /* navigationBar.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = navigationBar.js; sourceTree = "<group>"; };
 		29EB7F1518E17D9900F01973 /* TestUIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUIA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EB7F1818E17D9900F01973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		29EB7F1A18E17D9900F01973 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				29EB7F5A18E1873900F01973 /* main.js */,
+				29CA133118E1B8230004AFAA /* navigationBar.js */,
 			);
 			path = UIATest_script;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				29EB7F3418E17D9900F01973 /* TestUIA.xcdatamodeld in Sources */,
 				29EB7F5B18E1873900F01973 /* main.js in Sources */,
 				29EB7F3718E17D9900F01973 /* UIAMasterViewController.m in Sources */,
+				29CA133218E1B8230004AFAA /* navigationBar.js in Sources */,
 				29EB7F2718E17D9900F01973 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
